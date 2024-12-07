@@ -91,4 +91,7 @@ margin: 1rem;
     height: 12vh;
     font-size: 1.3rem;
   }
+  .action-btn {
+    font-size: 1.2rem;
+  }
 }

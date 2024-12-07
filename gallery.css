@@ -32,9 +32,9 @@ body {
 }
 
 .media-cont {
-width: 12vw;
-height: 30vh; 
-margin: 1rem;
+  width: 12vw;
+  height: 30vh; 
+  margin: 1rem;
 }
 
 .media {
@@ -84,7 +84,6 @@ margin: 1rem;
   }
   .media-cont {
     width: auto;
-    height: auto;
   }
   .back {
     width: 13vw;

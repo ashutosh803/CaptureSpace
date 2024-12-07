@@ -191,7 +191,7 @@ body {
   cursor: pointer;
 }
 
-@media (max-width: 520px){
+@media (max-width: 530px){
   :root {
     --actions-cont-width: 60%;
     --actions-cont-height: 8vh;
@@ -232,5 +232,17 @@ body {
     left: 50%;
     transform: translateX(-50%);
     font-size: 1rem;
+  }
+}
+
+@media (min-width: 531px) and (max-width: 990px){
+  :root {
+    --actions-cont-width: 10%
+  }
+  .gallery {
+    font-size: 4rem;
+  }
+  .filter-cont {
+    width: 10%;
   }
 }

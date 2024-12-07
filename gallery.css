@@ -76,3 +76,19 @@ margin: 1rem;
     font-size: 1.5rem;
   }
 }
+
+@media (min-width: 521px) and (max-width: 990px){
+  .gallery-cont {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .media-cont {
+    width: auto;
+    height: auto;
+  }
+  .back {
+    width: 13vw;
+    height: 12vh;
+    font-size: 1.3rem;
+  }
+}
